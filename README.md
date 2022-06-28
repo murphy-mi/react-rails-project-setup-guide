@@ -229,6 +229,8 @@ troubleshoot:
   page][postgres downloads page] and install it. Launch the app and click
   "Initialize" to create a new server. You should now be able to run
   `rails db:create`.
+  Note from Max: I also found a solution to this that worked when the above suggestion did not.
+  I tried ```brew uninstall mysql```, ```brew install mysql``` and then ```brew services restart mysql``` and it did the trick for me
 
 - If you're using WSL and got the following error running `rails db:create`:
 
